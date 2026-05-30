@@ -1,20 +1,20 @@
-# Agenda de Contatos (Java Swing + MVC) 📒
+# Agenda de Contatos (Java Swing + MVC)
 
 Um sistema desktop robusto para gerenciamento de contatos, desenvolvido em **Java** utilizando a arquitetura **MVC (Model-View-Controller)**. O projeto foca na segregação de dados entre múltiplos usuários e persistência leve utilizando arquivos **JSON**.
 
-## ✨ Sobre o Projeto
+## Sobre o Projeto
 
 Este aplicativo permite que múltiplos usuários criem contas e gerenciem suas próprias agendas telefônicas de forma privada. A principal característica técnica é a implementação do padrão MVC e o uso da biblioteca **Google Gson** para persistência de dados, eliminando a necessidade de um banco de dados SQL pesado para operações locais.
 
 ### Principais Características:
 * **Controle de Acesso:** Sistema de Login e Registro.
-* **Segregação de Dados:** Um usuário só visualiza os contatos que ele mesmo criou (`loginDono`).
-* **Persistência JSON:** Dados salvos automaticamente em arquivos locais (`data/`).
+* **Segregação de Dados:** Um usuário só visualiza os contatos que ele mesmo criou.
+* **Persistência JSON:** Dados salvos automaticamente em arquivos locais.
 * **Atualização em Tempo Real:** A interface reflete adições e remoções instantaneamente sem reiniciar.
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 * **Autenticação:**
     * Login seguro.
@@ -29,17 +29,17 @@ Este aplicativo permite que múltiplos usuários criem contas e gerenciem suas p
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-* **Linguagem:** [Java JDK 8+](https://www.oracle.com/java/technologies/downloads/)
+* **Linguagem:** Java JDK 8+
 * **Interface Gráfica:** Java Swing (JFrame, JPanel, JTable).
 * **Persistência:** JSON (Arquivos de texto).
 * **Bibliotecas Externas:**
-    * [Google Gson](https://github.com/google/gson) (Serialização/Desserialização de Objetos).
+    * Google Gson (Serialização/Desserialização de Objetos).
 
 ---
 
-## 📂 Estrutura do Projeto (MVC)
+## Estrutura do Projeto (MVC)
 
 O código foi organizado seguindo estritamente o padrão MVC para facilitar a manutenção e escalabilidade:
 
